@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "NavigationWithoutPain"
 include(":app")
 include(":jetpacknavigation2")
+include(":composedestinations")
