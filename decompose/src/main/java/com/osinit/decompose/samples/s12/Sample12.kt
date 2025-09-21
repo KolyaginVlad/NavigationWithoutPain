@@ -25,7 +25,7 @@ internal fun Sample12(rootComponent: RootComponent) {
 
 @Composable
 private fun HomeScreen(component: HomeComponent) {
-    Button(onClick = { component.onButtonClick() }) {
+    Button(onClick = component::onButtonClick) {
         Text("Navigate to List")
     }
 }
